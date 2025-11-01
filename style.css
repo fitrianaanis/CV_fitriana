@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+.container {
+    display: flex;
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Kolom kiri */
+.left-column {
+    background-color: #283441;
+    color: white;
+    width: 35%;
+    padding: 30px 20px;
+}
+
+.profile-photo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-photo img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #f2c94c;
+}
+
+.left-column h2 {
+    background-color: #f2c94c;
+    color: #1a1f24;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.left-column .section {
+    margin-bottom: 20px;
+}
+
+.left-column p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+/* Kolom kanan */
+.right-column {
+    width: 65%;
+    padding: 40px;
+}
+
+.right-column h1 {
+    color: #1a1f24;
+    font-size: 26px;
+}
+
+.right-column h3 {
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.section {
+    margin-bottom: 25px;
+}
+
+.section h2 {
+    font-size: 18px;
+    border-bottom: 2px solid #f2c94c;
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #172e44;
+}
+
+.section p, .section li {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #575252;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: "• ";
+    color: #f2c94c;
+}
